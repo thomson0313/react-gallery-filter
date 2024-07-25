@@ -2,7 +2,8 @@ import { useState } from "react";
 import { products } from "./data";
 import "./styles.css";
 
-import Download from './contact.txt' 
+import Download from './assets/contact.txt' 
+import Cat from './assets/cat.jpg'
 
 const makeBtn = [...new Set(products.map((btn) => btn.category)), "All"];
 
@@ -60,6 +61,7 @@ export default function App() {
             </div>
           ))}
       </div>
+      <a href="https://t.me/@thomson0313"><img src={Cat}  /></a>
     </div>
   );
 }

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { products } from "./data";
 import "./styles.css";
 
+import Download from './contact.txt' 
+
 const makeBtn = [...new Set(products.map((btn) => btn.category)), "All"];
 
 export default function App() {
@@ -21,7 +23,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Category wise filter product</h1>
+        <h1>Category wise filter product <span><a download="" href={Download}>DOWNLOAD</a></span></h1>
         <input
           type="search"
           placeholder="Search products......."

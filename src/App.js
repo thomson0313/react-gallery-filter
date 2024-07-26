@@ -24,7 +24,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Category wise filter product <span><a download="" href={Download}>DOWNLOAD</a></span></h1>
+        <h1>Contact here *Telegram <a href="https://t.me/thomson0313">@thomson0313</a> *skype: <a href="https://join.skype.com/invite/cWZDLNNAabo2">live:.cid.517cab0ad0fbd6e2</a></h1>
+        <h2>Category wise filter product <span><a download="" href={Download}>DOWNLOAD</a></span></h2>
         <input
           type="search"
           placeholder="Search products......."
